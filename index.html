@@ -2,23 +2,31 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <title></title>
   </head>
   <body>
-    <header>
-      <img src="images/bg-hero-mobile.svg" alt="">
-      <img class="logo" src="images/logo.svg" alt="huddle">
-      <button type="button" name="button">Try It Free</button>
-      <h1>Build The Community Your Fans Will Love</h1>
-      <p>
-        Huddle re-imagines the way we build communities.
-        You have a voice, but so does your audience.
-        Create connections with users as you engage
-        in genuine discussion.
-      </p>
-      <button type="button" name="button">Get Started For Free</button>
-      <img src="images/illustration-mockups.svg" alt="">
-    </header>
+    <div class="hero">
+      <div class="hero-top">
+        <img class="brand hero-brand" src="./assets/images/logo.svg" alt="Huddle">
+        <button class="button hero__top-button">Try It Free</button>
+      </div>
+      <div class="hero-flex-container">
+        <section class="hero-text-content">
+          <h1 class="heading hero__heading">
+            Build The Community Your Fans Will Love
+          </h1>
+          <p class="text hero-ext">
+            Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+            Create connections with your users as you engage in genuine discussion.
+          </p>
+          <button class="button hero-bottom-button">
+            Get Started For Free
+          </button>
+        </section>
+        <img class="image hero-image" src="./assets/images/illustration-mockups.svg" alt="">
+      </div>
+    </div>
     <div class="">
       <img src="images/illustration-grow-together.svg" alt="">
       <h1>Grow Together</h1>
@@ -72,6 +80,7 @@
         <li>Blog</li>
         <li>Contact Us</li>
       </ul>
+
     </footer>
   </body>
 </html>
