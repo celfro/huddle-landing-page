@@ -1,4 +1,3 @@
-
 :root {
 	--pink: hsl(322, 100%, 66%);
 
@@ -9,35 +8,4 @@
 	--white: hsl(0, 0%, 100%);
 
 	--default-transition: 0.3s ease-in-out;
-}
-
-html {
-	font-family: 'Poppins', sans-serif;
-	font-size: 14px;
-	color: var(--main-font-color);
-}
-
-header {
-	background-color: var(--very-pale-cyan);
-	font-weight: 700;
-}
-
-.hero {
-  position: relative;
-}
-.logo {
-  float: left;
-  width: 20px;
-  top: 10px;
-  left: 0;
-  position: absolute;
-}
-
-.hero-button {
-  top: 10px;
-  left: 300px;
-  border-radius: 50px;
-  position: absolute;
-  border-radius: 25px;
-  background-color: #fff;
 }
