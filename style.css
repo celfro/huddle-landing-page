@@ -1,6 +1,31 @@
-* {
-  padding: 0;
-  margin: 0;
+
+:root {
+	--pink: hsl(322, 100%, 66%);
+
+	--very-pale-cyan: hsl(193, 100%, 96%);
+	--very-dark-cyan: hsl(192, 100%, 9%);
+	--grayish-blue: hsl(208, 11%, 55%);
+
+	--white: hsl(0, 0%, 100%);
+
+	--default-transition: 0.3s ease-in-out;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	color: var(--main-font-color);
+}
+
+header {
+	background-color: var(--very-pale-cyan);
+	font-weight: 700;
 }
 
 .hero {
@@ -12,4 +37,13 @@
   top: 10px;
   left: 0;
   position: absolute;
+}
+
+.hero-button {
+  top: 10px;
+  left: 300px;
+  border-radius: 50px;
+  position: absolute;
+  border-radius: 25px;
+  background-color: #fff;
 }
